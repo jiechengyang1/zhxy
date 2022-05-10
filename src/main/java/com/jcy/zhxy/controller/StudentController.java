@@ -67,6 +67,10 @@ public class StudentController {
     ){
         studentService.removeByIds(ids);
         System.out.println("fuck");
+        System.out.println("fuck2");
+        System.out.println("fuck3");
+        System.out.println("fuck4");
+        System.out.println("fuck5");
         return Result.ok();
     }
 }
