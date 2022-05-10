@@ -66,6 +66,7 @@ public class StudentController {
             @ApiParam("删除的学生集合") @RequestBody List<Integer> ids
     ){
         studentService.removeByIds(ids);
+        System.out.println("fuck");
         return Result.ok();
     }
 }
